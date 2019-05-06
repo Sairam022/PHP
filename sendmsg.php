@@ -15,8 +15,8 @@
 </html>
 
 <?php
-$authKey = "272358ATuHBbE0BnO5cb30c27";
-$senderId = "Hideme";
+$authKey = "-----";  <-- YOUR AUTH KEY
+$senderId = "-----";  <--- YOUR SENDER ID
 if(isset($_POST['sendmsg']))
 {
 $mobileNumber = $_POST['number'];
