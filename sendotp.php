@@ -11,8 +11,8 @@ Phone Number : <input type="phone" name="number">
 </html>
 
 <?php
-$authKey = "272358ATuHBbE0BnO5cb30c27";
-$senderId = "611332";
+$authKey = "------";  <-- YOUR AUTH KEY
+$senderId = "------";  <-- YOUR SENDER ID
 if(isset($_POST['sendotp']))
 {
 	$mobileNumber = $_POST['number'];
