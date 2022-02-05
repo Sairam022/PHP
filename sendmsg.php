@@ -56,7 +56,7 @@ if(curl_errno($ch))
 
 curl_close($ch);
 
-echo '<script> alert("Your message has been sent to '.$mobileNumber.' successfully ")</script>';
+echo htmlspecialchars('<script> alert("Your message has been sent to '.$mobileNumber.' successfully ")</script>');
 
 }
 
